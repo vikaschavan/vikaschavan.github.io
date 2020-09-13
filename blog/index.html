@@ -1,0 +1,37 @@
+---
+# blog page must be named index.html and in its own folder to support pagination
+# https://jekyllrb.com/docs/pagination/
+layout: page
+title: Blog
+---
+<section class="list">
+	{% assign blogs = "False" %}
+	{% for post in site.posts %}
+		{% if post.category == 'blog' %}
+			{% if post.hidden != true %}
+				{% assign blogs = "True" %}
+			{% endif %}
+		{% endif %}
+	{% endfor %}
+	{% if blogs == "False" %}
+		<p class="text-center">Nothing published yet!</p>
+	{% elsif site.paginate %}
+		{% for post in paginator.posts %}
+			{% if post.category == 'blog' %}
+				{% if post.hidden != true %}
+					{% include blog-post.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+
+		{% include pagination.html%}
+	{% else %}
+		{% for post in site.posts %}
+			{% if post.category == 'blog' %}
+				{% if post.hidden != true %}
+					{% include blog-post.html %}
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	{% endif %}
+</section>
