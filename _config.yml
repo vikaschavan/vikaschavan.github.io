@@ -1,9 +1,9 @@
 # main text of home
-name: Nils Braun
-bio: high energy data engineer
+name: Vikas Chavan
+bio: BI and Data Engineer enthusiast
 
 # twitter summary info
-description: A blog on software development, data engineering and high energy physics
+description: A blog on data visualisation, data engineering and experience in world of analytics
 
 # if it's an external image, update below to true
 # better with square images
@@ -14,13 +14,13 @@ picture: assets/images/profile.jpg
 # and specify source (external or local).
 resume: false
 
-url: http://nils-braun.github.io
+url: http://vikaschavan.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-103787925-1'
+analytics-google: 
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -28,19 +28,19 @@ analytics-google: 'UA-103787925-1'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: https-nils-braun-github-io # enter this from your disqus account
+  shortname: # enter this from your disqus account
   categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: nilslennartbraun
-twitter: _nilsbraun
+#facebook: 
+twitter: mevikaschavan
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-linkedin: nils-braun-aa2b91128
+linkedin: mevikaschavan
 # youtube: myyoutube
 # spotify: myspotify
-github: nils-braun
+github: vikaschavan
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
@@ -48,12 +48,12 @@ github: nils-braun
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: nilslennartbraun@gmail.com
+email: chavanvikas57@gmail.com
 
 authors:
     nils:
-        name: Nils Braun
-        bio: high energy data engineer
+        name: Vikas Chavan
+        bio: 
         external-image: false
         picture: assets/images/profile.jpg
 
