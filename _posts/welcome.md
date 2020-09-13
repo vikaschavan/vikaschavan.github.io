@@ -16,7 +16,7 @@ On these sites, I will blog on Data Visualisation, Data engineering and my exper
 
 As one of the most famous Data Scientist has put it:
 
-> "Dream in years, plan in months Evaluate in weeks and ship daily.”
+> "Dream in years, plan in months, Evaluate in weeks and ship daily.”
 --- DJ Patil
 
 Let's start our exploration!
