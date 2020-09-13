@@ -20,7 +20,7 @@ url: http://vikaschavan.github.io
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 
+analytics-google: UA-177895061-1
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
